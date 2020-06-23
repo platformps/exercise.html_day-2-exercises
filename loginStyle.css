@@ -1,0 +1,32 @@
+screen{
+  background: green;
+}
+div{
+  position: absolute;
+  height: 350px;
+  width: 300px;
+  background-color: aquamarine;
+  margin: auto;
+  top: 25%;
+  left: 40%;
+  box-shadow: 5px 5px grey;
+}
+div div{
+  width: 100px;
+  height: 10px;
+  background-color: white;
+  padding: inherit;
+}
+input{
+  text-align: center;
+  height: 50px;
+  width: 200px;
+  padding: 10px;
+  border: auto;
+  margin: auto;
+}
+button{
+  width: 100px;
+  type: button;
+  background-color: grey;
+}

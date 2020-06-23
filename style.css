@@ -1,0 +1,52 @@
+.green-circle{
+    width:20%;
+    height:20%;
+    background-color: green;
+    box-shadow: grey;
+    align-content: center;
+    border-radius: 100px;
+    margin: 0 auto;
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,.5);
+}
+
+#user-icon{
+    margin: 0 auto;
+}
+
+#form-container{
+    background-color: beige;
+    position: relative;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.form-text-field{
+    font-size: 2em;
+    background-color: lightgrey;
+    height: 35px;
+    width:200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.form-button{
+    font-size: 1em;
+    background-color: cyan;
+    color: white;
+    height: 35px;
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+#title-icon{
+    background-color: beige;
+}
+
+#center-content{
+    background-color: beige;
+    height: 350px;
+    width: 300px;
+    margin: 0 auto;
+    box-shadow: 5px 10px 10px 10px rgba(0,0,0,.5);
+}

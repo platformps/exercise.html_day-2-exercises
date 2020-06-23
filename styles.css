@@ -34,6 +34,7 @@ input {
     width: 150px;
     font-size: large;
     box-shadow: 3px 3px 3px darkgrey;
+    border-radius: 2%;
 
 }
 

@@ -1,0 +1,48 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+body {
+    background-color: #9CCC65;
+    font-family: montserrat, arial, verdana;
+}
+
+.registrationCard {
+    background: white;
+	border: 0 none;
+	border-radius: 3px;
+	box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+	padding: 20px 30px;
+	box-sizing: border-box;
+	width: 20%;
+    position: relative;
+    margin-top: 16%;
+    margin-left: 40%;
+}
+
+#forgotPasswordLink {
+    margin-left: 5rem;
+    color: orange;
+    cursor: pointer;
+}
+
+#username, #password, #loginButton {
+    padding: 15px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	margin-bottom: 10px;
+	width: 100%;
+	box-sizing: border-box;
+	font-family: montserrat;
+	color: #2C3E50;
+	font-size: 13px;
+}
+
+#loginButton {
+    cursor: pointer;
+    background-color: #81D4FA;
+}
+
+#icon {
+    position: relative;
+    font-size: 100px;
+    left: 40%;
+}

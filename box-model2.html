@@ -5,13 +5,6 @@
 <!-- ----------------------------------------------------------------- -->
 <!-- ----------------------------------------------------------------- -->
 <head> <!-- header begins here -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <link href="./css/style.css" rel="stylesheet">
-  <script type="text/javascript" src="./js/header-functions.js"></script>
 
 </head> <!-- header ends here -->
 <!-- ----------------------------------------------------------------- -->
@@ -35,7 +28,6 @@
 <body> <!-- body begins here -->
 
 
-  The quickest of brown foxes.
 
 
 
@@ -48,7 +40,79 @@
   </footer> <!-- footer of page ends here -->
   <!-- ====================================================== -->
   <!-- ====================================================== -->
+  <h1>Box Model Visual</h1>
+  <div style="
+          top: 100;
+          left: 0;
+          position: absolute;
+          width:200px;
+          height:300px;
+          background-color: red;
+          padding: 10px;
+          border: 2px solid green;
+          margin: 0;">
+      <div id="innerdiv1" style="
+              top: 10px;
+              left: 40px;
+              position: absolute;
+              width:100px;
+              height:100px;
+              background-color: blue;
+              padding: 10px;
+              border: 2px solid white;
+              margin: 0;">
+          Inner DIV
+      </div>
 
+      <div id="innerdiv2" style="
+          top: 150px;
+          left: 10px;
+          width:150px;
+          position: absolute;
+          height:100px;
+          background-color: beige;
+          padding: 10px;
+          border: 2px solid white;
+          margin: 20;">
+          Inner DIV2
+      </div>
+  </div>
+  <div style="
+          top: 450px;
+          left: 50px;
+          position: absolute;
+          width:200px;
+          height:300px;
+          background-color: red;
+          padding: 10px;
+          border: 2px solid green;
+          margin: 0;">
+      <div id="innerdiv1" style="
+              top: 10px;
+              left: 10px;
+              position: absolute;
+              width:100px;
+              height:100px;
+              background-color: blue;
+              padding: 10px;
+              border: 2px solid white;
+              margin: 0;">
+          Inner DIV
+      </div>
+
+      <div id="innerdiv2" style="
+          top: 150px;
+          left: 10px;
+          width:100px;
+          position: absolute;
+          height:100px;
+          background-color: beige;
+          padding: 10px;
+          border: 2px solid white;
+          margin: 20;">
+          Inner DIV2
+      </div>
+  </div>
 </body>
 <!-- ---------------------------------------------------------------------------------- -->
 <!-- ---------------------------------------------------------------------------------- -->

@@ -1,9 +1,57 @@
 body {
-    background-color: navy;
+    background-color: white;
 }
 
+h1 {
+    color: black;
+}
 
-object {
-    height: 100vh;
-    width: 100vh;
+#login_box {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    height: 600px;
+    width: 400px;
+}
+
+#forgot_pass {
+    text-decoration: none;
+    color: orange;
+    position: fixed;
+    left: 50%;
+    bottom: 5%;
+    transform: translate(-50%);
+}
+
+#user_login {
+    font-size: xx-large;
+    position: fixed;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%);
+}
+
+#username {
+    position: fixed;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%);
+    text-align: center;
+}
+
+#password {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%);
+    text-align: center;
+}
+
+#login_button {
+    position: fixed;
+    left: 50%;
+    top: 75%;
+    transform: translate(-50%);
 }

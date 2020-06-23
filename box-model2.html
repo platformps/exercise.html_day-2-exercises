@@ -4,13 +4,14 @@
 <!-- ----------------------------------------------------------------- -->
 <!-- ----------------------------------------------------------------- -->
 <!-- ----------------------------------------------------------------- -->
-<head> <!-- header begins here -->
+
+<head>
+  <!-- header begins here -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <link href="./css/style.css" rel="stylesheet">
   <script type="text/javascript" src="./js/header-functions.js"></script>
 
 </head> <!-- header ends here -->
@@ -32,10 +33,86 @@
 <!-- ---------------------------------------------------------------------------------- -->
 <!-- ---------------------------------------------------------------------------------- -->
 <!-- ---------------------------------------------------------------------------------- -->
-<body> <!-- body begins here -->
+
+<body>
+  <!-- body begins here -->
 
 
-  The quickest of brown foxes.
+  <h1>Box Model Visual</h1>
+  <div style="
+            top: 100px;
+            left: 40px;
+            position: absolute;
+            width:250px;
+            height:400px;
+            background-color: red;
+            padding: 10px;
+            border: 2px solid green;
+            margin: 0;">
+
+    <div id="innerdiv1" style="
+                top: 10px;
+                left: 60px;
+                position: absolute;
+                width:100px;
+                height:100px;
+                background-color: blue;
+                padding: 10px;
+                border: 2px solid white;
+                margin: 0;">
+      Inner div 1
+    </div>
+
+    <div id="innerdiv2" style="
+            top: 150px;
+            left: 10px;
+            width:150px;
+            position: absolute;
+            height:100px;
+            background-color: beige;
+            padding: 10px;
+            border: 2px solid white;
+            margin: 20;">
+      Inner div2
+    </div>
+  </div>
+
+  <div style="
+            top: 550px;
+            left: 40px;
+            position: absolute;
+            width:250px;
+            height:400px;
+            background-color: red;
+            padding: 10px;
+            border: 2px solid green;
+            margin: 0;">
+    <div id="innerdiv1" style="
+                top: 60px;
+                left: 60px;
+                position: absolute;
+                width:100px;
+                height:100px;
+                background-color: blue;
+                padding: 10px;
+                border: 2px solid white;
+                margin: 0;">
+      Inner div
+    </div>
+
+    <div id="innerdiv2" style="
+            top: 200px;
+            left: 60px;
+            width:100px;
+            position: absolute;
+            height:100px;
+            background-color: beige;
+            padding: 10px;
+            border: 2px solid white;
+            margin: 20;">
+      Inner div2
+    </div>
+  </div>
 
 
 

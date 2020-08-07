@@ -4,7 +4,7 @@
   * CSS Selectors
   * Positioning
 * **Description**
-  * Please click [here](https://github.com/platformps/lecturedemos/tree/master/2020Jun23) to view today's lecture demos
+  * Please click [here](https://github.com/platformps/lecturedemos/tree/master/html-css/2020Jun23) to view today's demonstration
   * Please modify `box-model1.html` to render a webpage resembling the image below.
   <img src="./img/box-model1.png">
 

@@ -4,7 +4,9 @@
 <!-- ----------------------------------------------------------------- -->
 <!-- ----------------------------------------------------------------- -->
 <!-- ----------------------------------------------------------------- -->
-<head> <!-- header begins here -->
+
+<head>
+  <!-- header begins here -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="">
@@ -12,6 +14,37 @@
 
   <link href="./css/style.css" rel="stylesheet">
   <script type="text/javascript" src="./js/header-functions.js"></script>
+  <style>
+    #parent {
+      background-color: red;
+      width: 400px;
+      height: 600px;
+      border: 1px solid green;
+      box-shadow: 2px 3px 2px;
+    }
+
+    #child1 {
+      position: absolute;
+      background-color: blue;
+      width: 150px;
+      height: 200px;
+      padding: 10px;
+      margin-left: 100px;
+      margin-top: 50px;
+      margin-right: 75px;
+      border: 2px solid white;
+    }
+
+    #child2 {
+      position: absolute;
+      background-color: beige;
+      height: 150px;
+      width: 250px;
+      margin-top: 300px;
+      margin-left: 30px;
+      margin-right: 50px;
+    }
+  </style>
 
 </head> <!-- header ends here -->
 <!-- ----------------------------------------------------------------- -->
@@ -32,13 +65,21 @@
 <!-- ---------------------------------------------------------------------------------- -->
 <!-- ---------------------------------------------------------------------------------- -->
 <!-- ---------------------------------------------------------------------------------- -->
-<body> <!-- body begins here -->
+
+<body>
+  <!-- body begins here -->
 
 
-  The quickest of brown foxes.
+  <h1>Box Model Visual</h1>
 
-
-
+  <div id="parent">
+    <div id="child1">
+      Inner DIV 1
+    </div>
+    <div id="child2">
+      Inner DIV 2
+    </div>
+  </div>
 
   <!-- ====================================================== -->
   <!-- ====================================================== -->

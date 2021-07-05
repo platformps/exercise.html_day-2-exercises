@@ -1,0 +1,57 @@
+body {
+    background-color: lightgreen;
+    color: lightgray;
+    font-family: sans-serif;
+}
+
+#login-frame {
+
+    background-color: white;
+    border-radius: 2%;
+    box-shadow: 5px 5px 5px darkgrey;
+    width: 300px;
+    height: 400px;
+    position: fixed;
+    top: 200px;
+    left: 600px;
+
+}
+
+div div {
+    padding: 10px;
+    margin-top: 5%;
+}
+
+form {
+    padding: 20px;
+    margin-left: 15%;
+}
+
+input {
+    background-color: lightslategrey;
+    opacity: 75%;
+    height: 30px;
+    width: 150px;
+    font-size: large;
+    box-shadow: 3px 3px 3px darkgrey;
+    border-radius: 2%;
+
+}
+
+button {
+    font-size: large;
+    height: 30px;
+    width: 150px;
+    background-color: rgba(0, 153, 255, 0.952);
+    color: white;
+    box-shadow: 3px 3px 3px darkgrey;
+}
+
+.login-info {
+    color: black;
+}
+
+#footer {
+    margin-left: 10%;
+    color: orange;
+}
